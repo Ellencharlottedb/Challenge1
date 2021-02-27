@@ -1,0 +1,53 @@
+/*------------------------------- mobile ------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@media only screen and (min-width: 375px){
+body{
+	font-family: Roboto Mono, sans-serif;
+	background-color: #300067;
+	color:#FFFFFF;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+/*	width: 400px;*/
+}
+h1{
+	font-size: 28px;
+	margin-left: 0.5em;
+}
+h2 {
+	padding-left: 1em;
+}
+p{
+	font-size: 14px;
+	margin-top:-3px;
+	margin-left: 1.2em;
+}
+#myChart{
+	display: flex;
+
+}
+#spacex{
+	width: 50%;
+	transform: rotate(35deg);
+}
+#afbeelding{
+	text-align: center;
+}
+main {
+	background-color: #5506B1;
+	margin-top: 2em;
+	padding: 1em 0em;
+}
+}
+
+/* ----------------- ipad ---------------------- */
+@media only screen and (min-width: 768px){
+	header{
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	main{
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
