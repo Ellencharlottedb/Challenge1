@@ -27,7 +27,7 @@ let luchtChart = new Chart(myChart,{
         },
         legend:{
             display:true,
-            position:"right",
+            // position:"right",
         }
 
     }
@@ -94,7 +94,7 @@ let brandstofChart = new Chart(myChart3,{
         },
         legend:{
             display:true,
-            position:"right",
+            // position:"right",
         }
 
     }

@@ -24,6 +24,17 @@ p{
 }
 #myChart{
 	display: flex;
+	width: 50%;
+
+}
+#myChart2{
+	display: flex;
+	width: 50%;
+
+}
+#myChart3{
+	display: flex;
+	width: 50%;
 
 }
 #spacex{
