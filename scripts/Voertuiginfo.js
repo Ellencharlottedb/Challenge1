@@ -16,6 +16,7 @@ let luchtChart = new Chart(myChart,{
             data:[78,20,1],
             backgroundColor:["#FCB802","#FF05D9","#00F7A1"],
             hoverColor:"#300067",
+            // width: 100%,
         }]
     },
     options:{
@@ -26,7 +27,7 @@ let luchtChart = new Chart(myChart,{
             fontSize: 14
         },
         legend:{
-            display:true,
+            display:false, //liever true maar dan wordt de grafiek te klein
             // position:"right",
         }
 
@@ -93,7 +94,7 @@ let brandstofChart = new Chart(myChart3,{
             fontSize: 14
         },
         legend:{
-            display:true,
+            display:false, //liever true maar dan wordt de grafiek te klein
             // position:"right",
         }
 

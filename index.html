@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  -->
     <title>Voertuig Informatie</title>
 </head>
 <body>
@@ -19,27 +19,27 @@
         </div>
     </header>
     <main>
-    	<h2> Lucht binnen voertuig </h2> <!-- stikstof, zuurstof co2 -->
-    	<div class="container">
-            <canvas id="myChart1"> </canvas>   
-        </div>
-	</div>
-        </article>
-        <article>
+        <section>
+        	<h2> Lucht binnen voertuig </h2> <!-- stikstof, zuurstof co2 -->
+        	<div class="container">
+                <canvas id="myChart1"> </canvas>   
+            </div>
+        </section>
+        <section>
             <h2>Acceleratie</h2>
             <div class="container2">
             <canvas id="myChart2"> </canvas>   
             </div>
-        </div>
-        </article>
-        <article>
+        </section>
+        <section>
             <h2>Brandstof</h2>
             <div class="container3">
             <canvas id="myChart3"> </canvas>   
             </div>
-        </article>
+        </section>
+       
     </main>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"> </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"> </script> <!-- Script voor de body sluitings tag heb ik geleerd van Tim. -->
 <script src="scripts/voertuiginfo.js"></script>
 </body>
 </html>
